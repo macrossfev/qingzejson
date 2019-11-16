@@ -1,0 +1,31 @@
+//！！！！安全月活动 2592000 0 0 1 6 *
+
+//员工
+[
+    {"type": "select","name": "参加安全月培训","options": ["参加","不能参加"]},
+    {"type": "select","name": "参加安全月知识问答","options": ["参加","不能参加"]},
+    {"type": "image","name": "上传安全月知识问答得分"},
+    {"type": "select","name": "参加安全月隐患排查","options": ["参加","不能参加"]}
+   ]
+   
+   
+   //安全管理员
+   [
+    {"type": "select","name": "参加安全月培训","options": ["参加","不能参加"]},
+    {"type": "select","name": "参加安全月知识问答","options": ["参加","不能参加"]},
+    {"type": "image","name": "上传安全月知识问答得分"},
+    {"type": "select","name": "参加安全月隐患排查","options": ["参加","不能参加"]},
+    {"type": "select","name": "归档纸质资料","options": ["完成","不能完成"]}
+   ]
+   
+   //安全负责人
+   [
+    {"type": "select","name": "安全月活动发文","options": ["完成","不能完成"]},
+    {"type": "image","name": "上传安全月活动文件扫描件"},
+    {"type": "select","name": "组织开展安全月活动","options": ["完成","不能完成"]},
+    {"type": "select","name": "组织开展安全月知识问答","options": ["完成","不能完成"]},
+    {"type": "select","name": "组织开展隐患排查","options": ["完成","不能完成"]},
+    {"type": "image","name": "上传专项隐患排查记录"},
+    {"type": "select","name": "总结安全月活动","options": ["完成","不能完成"]},
+    {"type": "image","name": "上传安全月总结材料"}
+   ]
