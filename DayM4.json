@@ -1,0 +1,91 @@
+//警示标识 房间负责人 0 0 * 1-12 1-5
+[
+  {"type": "select","name": "警示标志情况","options": ["正常","缺失","不涉及"]},
+  {"type": "image","name": "拍摄警示标识图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//烟感器
+[
+  {"type": "select","name": "烟感器红灯是否闪烁","options": ["闪烁","不闪烁","不涉及"]},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//乙炔报警器
+[
+  {"type": "select","name": "检查乙炔报警器情况","options": ["正常","异常","不涉及"]},
+  {"type": "image","name": "拍摄乙炔报警器正常图片"},
+  {"type": "audio","name": "异常时语音说明情况"}   
+]
+
+//防雷设备
+[
+  {"type": "select","name": "检查防雷设备情况","options": ["正常","异常","不涉及"]},
+  {"type": "image","name": "拍摄防雷设备绿灯全亮图片"},
+  {"type": "audio","name": "异常时语音说明情况"}   
+]
+
+//气瓶固定
+[
+  {"type": "select","name": "警示标志情况","options": ["固定","未固定","不涉及"]},
+  {"type": "image","name": "拍摄气瓶图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//废液桶超限
+[
+  {"type": "select","name": "废液桶情况","options": ["超过红线","未到红线","不涉及"]},
+  {"type": "image","name": "拍摄废液桶图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//异常气味
+[
+  {"type": "select","name": "气味情况","options": ["有异常气味","正常"]},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//异常噪声
+[
+  {"type": "select","name": "噪声情况","options": ["有异常噪声","正常"]},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//通风橱倒灌
+[
+  {"type": "select","name": "通风橱情况","options": ["发生倒灌","正常"]},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//插座插头
+[
+  {"type": "select","name": "插座插头情况","options": ["有烧焦发黑","正常"]},
+  {"type": "image","name": "拍摄气瓶图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//电线裸露
+[
+  {"type": "select","name": "检查室内电线情况","options": ["电线裸露无防护","正常"]},
+  {"type": "image","name": "异常时拍摄图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//空开跳闸
+[
+  {"type": "select","name": "空开情况","options": ["跳闸","正常"]},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//乱接电线
+[
+  {"type": "select","name": "警示标志情况","options": ["固定","未固定"]},
+  {"type": "image","name": "拍摄气瓶图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//水电关闭
+[
+  {"type": "select","name": "水电关闭情况","options": ["水电均关闭","水电未关闭"]},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
