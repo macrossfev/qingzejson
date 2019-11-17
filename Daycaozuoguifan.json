@@ -1,0 +1,35 @@
+//操作规范
+
+//穿戴防护用品
+[
+  {"type": "select","name": "穿白大褂","options": ["已穿","本日无检测活动"]},
+  {"type": "select","name": "带一次性丁腈手套","options": ["已戴","本日无检测活动"]},
+  {"type": "select","name": "带3M活性炭口罩","options": ["已戴","本日无检测活动"]},
+  {"type": "image","name": "上传穿戴图片"}
+]
+
+//开关通风橱
+[
+  {"type": "select","name": "打开通风橱","options": ["已打开","本日无检测活动"]},
+  {"type": "image","name": "拍摄通风橱状态"},
+  {"type": "select","name": "关闭通风橱","options": ["已关闭","本日无检测活动"]},
+  {"type": "image","name": "拍摄通风橱状态"}
+]
+
+//收拾台面
+[
+  {"type": "select","name": "按6S要求收拾台面","options": ["已收拾","本日无检测活动"]},
+  {"type": "image","name": "拍摄台面图片"}
+]
+
+//关闭水电
+[
+  {"type": "select","name": "检测完成后关闭水电","options": ["已关闭","本日无检测活动"]},
+  {"type": "audio","name": "语音确认已关闭水电"}
+]
+
+//收集废液
+[
+  {"type": "select","name": "将高浓度废液倒入指定容器","options": ["已倒","不涉及"]},
+  {"type": "image","name": "拍摄废液倾倒记录"}
+]

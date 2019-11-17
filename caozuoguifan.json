@@ -1,9 +1,0 @@
-//操作规范
-
-//穿戴防护用品
-[
-  {"type": "select","name": "穿白大褂","options": ["已穿","本日无检测活动"]},
-  {"type": "select","name": "带一次性丁腈手套","options": ["已戴","本日无检测活动"]},
-  {"type": "select","name": "带3M活性炭口罩","options": ["已戴","本日无检测活动"]},
-  {"type": "image","name": "上传穿戴图片"}
-]

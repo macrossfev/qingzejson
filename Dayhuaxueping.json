@@ -1,0 +1,14 @@
+//化学品摆放
+
+[
+  {"type": "select","name": "化学品摆放情况","options": ["正常","乱摆放"]},
+  {"type": "image","name": "拍摄台面图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//无标识溶液
+[
+  {"type": "select","name": "是否有零标识溶液","options": ["有","无"]},
+  {"type": "image","name": "异常时拍摄图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]

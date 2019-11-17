@@ -1,0 +1,66 @@
+//设备器皿
+//进行房间检查
+[
+  {"type": "select","name": "房间负责人进行房间检查","options": ["已进行","无法进行"]},
+  {"type": "image","name": "拍摄检查确认表"}
+]
+
+//小型检测设备
+[
+  {"type": "select","name": "检查设备外观","options": ["正常","异常","无小型设备"]},
+  {"type": "image","name": "异常时拍摄相关图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//大型检测设备
+[
+  {"type": "select","name": "检查设备外观","options": ["正常","异常","无大型设备"]},
+  {"type": "image","name": "异常时拍摄相关图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//通风橱
+[
+  {"type": "select","name": "检查通风橱功能","options": ["正常","异常","无通风橱"]},
+  {"type": "image","name": "异常时拍摄相关图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//洗眼器
+[
+  {"type": "select","name": "检查洗眼器功能","options": ["正常","异常","无洗眼器"]},
+  {"type": "image","name": "异常时拍摄相关图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//应急药箱
+[
+  {"type": "select","name": "检查药箱","options": ["正常","异常","无应急药箱"]},
+  {"type": "image","name": "拍摄药箱图片"}
+]
+
+//灭火器
+[
+  {"type": "select","name": "检查灭火器","options": ["正常","缺失","无灭火器"]},
+  {"type": "image","name": "拍摄灭火器图片"}
+]
+
+//蒸馏器皿
+[
+  {"type": "select","name": "检查蒸馏器皿是否有裂纹","options": ["无裂纹","有裂纹","无蒸馏器皿"]},
+  {"type": "image","name": "异常时拍摄相关图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//使用破碎玻璃器皿
+[
+    {"type": "select","name": "检查蒸馏器皿是否有裂纹","options": ["无裂纹","有裂纹","无蒸馏器皿"]},
+    {"type": "image","name": "异常时拍摄相关图片"},
+    {"type": "audio","name": "异常时语音说明情况"}
+  ]
+
+//走廊灭火器
+[
+    {"type": "select","name": "检查走廊灭火器","options": ["正常","缺失","不涉及"]},
+    {"type": "image","name": "拍摄灭火器图片"}
+  ]
