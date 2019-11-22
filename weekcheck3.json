@@ -9,3 +9,24 @@
   {"type": "select","name": "查看应急药箱内是否有止血贴、酒精、烫伤膏","options": ["齐全","缺漏"]},
   {"type": "image","name": "拍摄相关图片"}
 ]
+
+//防护用品
+[
+  {"type": "select","name": "查看防护用品台帐","options": ["足量","不足"]},
+  {"type": "image","name": "拍摄防护用品库存图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//员工持证
+[
+  {"type": "select","name": "查看员工证件到期表","options": ["正常","过期"]},
+  {"type": "image","name": "异常时上传相关图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//安全相关人员持证
+[
+  {"type": "select","name": "查看安全相关人员证件到期表","options": ["正常","过期"]},
+  {"type": "image","name": "异常时上传相关图片"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
