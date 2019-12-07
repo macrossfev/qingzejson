@@ -1,0 +1,94 @@
+//危险源识别 
+[
+  {"type": "select","name": "更新重大风险","options": ["已更新","无法处理"]},
+  {"type": "image","name": "上传重大风险识别表"}
+]
+
+[
+  {"type": "select","name": "重大危险源分析","options": ["已分析","无法处理"]},
+  {"type": "image","name": "重大危险源识别分析说明"}
+]
+
+[
+  {"type": "select","name": "更新危险源识别、风险评价表","options": ["已更新","无法处理"]},
+  {"type": "image","name": "上传危险源识别、风险评价表"}
+]
+
+//法律法规识别更新
+[
+  {"type": "select","name": "更新法律法规清单","options": ["已更新","无法处理"]},
+  {"type": "image","name": "上传法律法规清单"}
+]
+
+[
+  {"type": "select","name": "更新适用性评价","options": ["已更新","无法处理"]},
+  {"type": "image","name": "上传适用性评价"}
+]
+
+//职业健康目标和管理方案
+[
+  {"type": "select","name": "制定安全目标和管理方案","options": ["已制作","无法处理"]},
+  {"type": "image","name": "上传一、二、三、四季度的目标和管理方案表"}
+]
+
+[
+  {"type": "select","name": "一季度管理方案实施情况表","options": ["已考核","无法处理"]},
+  {"type": "image","name": "上传一季度管理方案实施情况表"}
+]
+
+[
+  {"type": "select","name": "二季度管理方案实施情况表","options": ["已考核","无法处理"]},
+  {"type": "image","name": "上传二季度管理方案实施情况表"}
+]
+
+[
+  {"type": "select","name": "三季度管理方案实施情况表","options": ["已考核","无法处理"]},
+  {"type": "image","name": "上传三季度管理方案实施情况表"}
+]
+
+[
+  {"type": "select","name": "四季度管理方案实施情况表","options": ["已考核","无法处理"]},
+  {"type": "image","name": "上传四季度管理方案实施情况表"}
+]
+
+//文件控制程序
+[
+  {"type": "select","name": "梳理文件控制程序内的七个表格","options": ["已处理","无法处理"]},
+  {"type": "audio","name": "语音说明情况"}
+]
+
+[
+  {"type": "select","name": "资料收集与销毁","options": ["已整理","无法处理"]},
+  {"type": "audio","name": "语音说明情况"}
+]
+
+//危险化学品管理程序
+[
+  {"type": "select","name": "合格供应商评价","options": ["已评价","无法处理"]},
+  {"type": "image","name": "上传合格供应商名单"}
+]
+
+//消防控制程序
+[
+  {"type": "select","name": "更新消防设施台账","options": ["已更新","无法处理"]},
+  {"type": "image","name": "上传消防设施设备台账"}
+]
+
+[
+  {"type": "select","name": "消防演习","options": ["已进行","未进行"]},
+  {"type": "image","name": "上传消防演练记录"}
+]
+
+//机动车管理
+
+//劳动卫生
+[
+  {"type": "select","name": "职业健康体检","options": ["已体检","无法处理"]},
+  {"type": "image","name": "上传体检综合结果"}
+]
+
+[
+  {"type": "select","name": "环境职业危害检测","options": ["已检测","无法处理"]},
+  {"type": "image","name": "上传检测结果"}
+]
+
