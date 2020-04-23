@@ -1,0 +1,13 @@
+//隐患日清周进
+[
+  {"type": "select","name": "查看隐患识别台账","options": ["正常","异常"]},
+  {"type": "image","name": "上传隐患识别台账"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
+
+//隐患周清月进
+[
+  {"type": "select","name": "查看隐患台账中周清月进部分","options": ["正常","异常"]},
+  {"type": "image","name": "上传隐患识别台账"},
+  {"type": "audio","name": "异常时语音说明情况"}
+]
