@@ -1,0 +1,6 @@
+[
+    {"type": "select","description": "根据核对情况选择","name": "核对危险化学品数量","options": ["正常","异常"]},
+    {"type": "text","description": "异常时进行文字说明","name": "说明异常具体情况"},
+    {"type": "image","description": "拍摄上锁情况","name": "拍摄存放柜外观"},
+    {"type": "text","description": "其他异常情况进行文字说明","name": "说明其他异常情况"}
+]
