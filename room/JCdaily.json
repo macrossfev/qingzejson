@@ -1,0 +1,16 @@
+[
+    {"type": "select", "description": "异常时选择xxx","name": "xxx","options": ["A","B","C","D"]},
+    {"type": "image", "description": "异常时上传图片","name": "拍摄通风橱状态"},
+    {"type": "audio", "description": "异常时上传语音说明","name": "语音确认已关闭水电"},
+    {"type": "text", "description": "异常时进行文字说明","name": "说明具体情况"}
+    ]
+
+[   
+    {"type": "select", "description": "根据实际情况选择","name": "今日是否进行检测活动","options": ["是","否"]},
+    {"type": "image", "description": "拍摄上传身着防护用品图片","name": "穿戴防护用品进行检测"},
+    {"type": "select", "description": "根据实际情况选择","name": "挥发性检测项目开启通风橱","options": ["已打开","项目无挥发性","无法打开","其他"]},
+    {"type": "image", "description": "完成检测后拍摄收拾完成的台面","name": "检测完成后收拾台面"},
+    {"type": "select", "description": "根据实际情况完成后选择确认","name": "检测完成后关闭水电","options": ["已关闭","其他人员继续使用","其他"]},
+    {"type": "text", "description": "文字输入xx项目废液导入xx房间废液桶中","name": "按规定倾倒废液"},
+    {"type": "text", "description": "上报其他异常安全情况","name": "其他安全情况"},
+]
