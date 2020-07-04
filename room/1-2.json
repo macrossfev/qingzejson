@@ -4,3 +4,4 @@
 
     {"type": "select","name": "关1-2门并上锁","options": ["已关闭","其他"]},
     {"type": "boolean","description": "无法上锁时说明情况","name": "情况说明","required": true}
+]

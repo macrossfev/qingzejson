@@ -11,7 +11,7 @@
     {"type": "text", "description": "危化品柜无法上锁时说明情况","name": "情况说明"},
 
     {"type": "select", "description": "废液不得超过废液桶2/3","name": "确认废液总量情况","options": ["未超过","接近"]},
-    {"type": "boolean","description": "已超过2/3且无法移走时说明情况","name": "情况说明","required": true}
+    {"type": "boolean","description": "已超过2/3且无法移走时说明情况","name": "情况说明","required": true},
 
     {"type": "select", "description": "非检测时段要求台面整洁","name": "台面整洁情况","options": ["台面整洁","台面不整洁"]},
     {"type": "image", "description": "拍摄房间台面情况","name": "房间台面实时情况"},
