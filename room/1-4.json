@@ -1,0 +1,14 @@
+[
+    {"type": "select", "description": "温度超过38度时打开空调","name": "打开药品室空调","options": ["已打开","温度未到"]},
+    {"type": "image", "description": "拍摄温湿度计实时温度","name": "确认室内温度"},
+    {"type": "text", "description": "异常时进行文字说明","name": "情况说明"},
+
+    {"type": "select", "description": "上午打开空调时下班前关闭","name": "关闭药品室空调","options": ["已关闭","上午未打开"]},
+
+    {"type": "select", "description": "危化品柜要求双人双锁","name": "确认危化品柜已上锁","options": ["已上锁","异常"]},
+    {"type": "image", "description": "横向拍摄危化品柜情况","name": "危化品柜上锁图片"},
+    {"type": "text", "description": "危化品柜无法上锁时说明情况","name": "情况说明"},
+
+    {"type": "select","name": "关药品室门并上锁","options": ["已关闭","异常"]},
+    {"type": "boolean","description": "无法关闭时说明情况","name": "情况说明","required": true}
+]    

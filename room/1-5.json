@@ -1,0 +1,4 @@
+[
+    {"type": "select","name": "关1-5安全物资室门并上锁","options": ["已关闭","其他"]},
+    {"type": "boolean","description": "异常时说明情况","name": "情况说明","required": true}
+  ]
