@@ -1,0 +1,6 @@
+[
+    {"type": "select", "description": "气瓶室内所有气瓶要求挂上防倒链","name": "气瓶防倾倒情况","options": ["已挂防倒链","其他"]},
+    {"type": "image", "description": "拍摄气瓶室实时图片，确保防倒链已全部挂上","name": "拍摄气瓶室实时情况"},
+    {"type": "text", "description": "有异常情况导致无法挂上防倒链时说明情况","name": "情况说明"}
+
+]

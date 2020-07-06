@@ -1,0 +1,23 @@
+[
+    {"type": "select","description": "检查1-4灭火器、烟感器、易燃易爆气体报警器、安全标识是否有缺失或其他异常情况","name": "设备标识隐患排查","options": ["正常","异常"]},
+    {"type": "boolean","description": "灭火器、烟感器、易燃易爆气体报警器、安全标识缺失或异常时说明情况","name": "情况说明","required": true},
+  
+    {"type": "select","description": "检查1-4是否有插座、插座烧焦、电线裸露、空开跳闸、乱接插线板的情况","name": "电器火灾隐患排查","options": ["正常","异常"]},
+    {"type": "boolean","description": "有上述情况时说明情况","name": "情况说明","required": true},
+  
+    {"type": "select","description": "1-4日内是否出现明显异味、明显噪声、异常响声、通风系统倒灌等情况","name": "工作环境隐患排查","options": ["正常","异常"]},
+    {"type": "boolean","description": "发现上述情况时说明情况","name": "情况说明","required": true}, 
+
+    {"type": "select", "description": "温度超过38度时打开空调","name": "打开药品室空调","options": ["已打开","温度未到"]},
+    {"type": "image", "description": "拍摄温湿度计实时温度","name": "确认室内温度"},
+    {"type": "text", "description": "异常时进行文字说明","name": "情况说明"},
+
+    {"type": "select", "description": "上午打开空调时下班前关闭","name": "关闭药品室空调","options": ["已关闭","上午未打开"]},
+
+    {"type": "select", "description": "危化品柜要求双人双锁","name": "确认危化品柜已上锁","options": ["已上锁","异常"]},
+    {"type": "image", "description": "横向拍摄危化品柜情况","name": "危化品柜上锁图片"},
+    {"type": "text", "description": "危化品柜无法上锁时说明情况","name": "情况说明"},
+
+    {"type": "select","name": "关药品室门并上锁","options": ["已关闭","异常"]},
+    {"type": "boolean","description": "无法关闭时说明情况","name": "情况说明","required": true}
+]    
