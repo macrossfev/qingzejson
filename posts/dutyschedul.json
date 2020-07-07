@@ -1,0 +1,15 @@
+[
+
+{"type": "select", "description": "关闭一楼走廊各玻璃窗户","name": "关闭检测区域","options": ["已关闭","其他"]},
+{"type": "text", "description": "选择其他时进行文字说明","name": "说明具体情况"},
+{"type": "image", "description": "拍摄一楼楼道","name": "关闭一楼检测区域窗户"},
+
+{"type": "select", "description": "关闭一楼玻璃门","name": "关闭检测区域","options": ["已关闭","其他"]},
+{"type": "text", "description": "选择其他时进行文字说明","name": "说明具体情况"},
+{"type": "image", "description": "拍摄一楼玻璃门状态","name": "关闭一楼玻璃门"},
+
+{"type": "select", "description": "检查当日值日情况","name": "值日人员日隐患排查汇总","options": ["均正常","出现异常"]},
+{"type": "text", "description": "异常时进行文字说明","name": "说明具体情况"},
+{"type": "image", "description": "拍摄完成的日检查表","name": "日检查情况记录"}
+
+]
