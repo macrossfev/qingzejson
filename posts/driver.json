@@ -1,0 +1,24 @@
+//日
+[
+    {"type": "select", "description": "填写车辆里程使用记录","name": "完成车辆里程表","options": ["已完成","长途路途中","今日未使用","其他"]},
+    {"type": "text", "description": "选择其他时进行文字说明","name": "说明具体情况"},
+    {"type": "image", "description": "拍摄里程数","name": "拍摄车辆目前的里程数"},
+    
+    {"type": "select", "description": "无其他特殊情况时车辆需停回公司","name": "完成车辆里程表","options": ["已完成","长途路途中","今日未使用","其他"]},
+    {"type": "text", "description": "选择其他时进行文字说明","name": "说明具体情况"},
+    {"type": "image", "description": "拍摄里程数","name": "拍摄车辆目前的里程数"},
+    
+    ]
+
+//月
+
+[
+    {"type": "select", "description": "按车辆检查表要求检查车辆各项情况","name": "完成车辆里程表","options": ["已完成","其他"]},
+    {"type": "text", "description": "选择其他时进行文字说明","name": "说明具体情况"},
+    {"type": "image", "description": "拍摄已完成的车辆安全检查表","name": "拍摄车辆安全检查表"},
+
+    {"type": "select", "description": "将本月车辆行驶记录交给安全管理员","name": "交车辆行驶记录表","options": ["已完成","其他"]},
+    {"type": "text", "description": "选择其他时进行文字说明","name": "说明具体情况"}
+    
+
+]
