@@ -2,5 +2,6 @@
 {"type": "select", "description": "异常时选择xxx","name": "xxx","options": ["A","B","C","D"]},
 {"type": "image", "description": "异常时上传图片","name": "拍摄通风橱状态"},
 {"type": "audio", "description": "异常时上传语音说明","name": "语音确认已关闭水电"},
-{"type": "text", "description": "异常时进行文字说明","name": "说明具体情况"}
+{"type": "text", "description": "异常时进行文字说明","name": "说明具体情况"},
+{"type": "boolean","description": "灭火器、烟感器、应急药箱缺失或异常时说明情况","name": "情况说明","required": true},
 ]

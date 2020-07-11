@@ -1,13 +1,13 @@
 [
   {"type": "select","description": "检查1-5灭火器、烟感器是否有缺失或其他异常情况","name": "设备标识隐患排查","options": ["正常","异常"]},
-  {"type": "boolean","description": "灭火器、烟感器缺失或异常时说明情况","name": "情况说明","required": true},
+  {"type": "text","description": "灭火器、烟感器缺失或异常时说明情况","name": "情况说明"},
 
   {"type": "select","description": "检查1-5是否有插座、插座烧焦、电线裸露、空开跳闸、乱接插线板的情况","name": "电器火灾隐患排查","options": ["正常","异常"]},
-  {"type": "boolean","description": "有上述情况时说明情况","name": "情况说明","required": true},
+  {"type": "text","description": "有上述情况时说明情况","name": "情况说明"},
 
   {"type": "select","description": "1-5日内是否出现明显异味、明显噪声、异常响声等情况","name": "工作环境隐患排查","options": ["正常","异常"]},
-  {"type": "boolean","description": "发现上述情况时说明情况","name": "情况说明","required": true}, 
+  {"type": "text","description": "发现上述情况时说明情况","name": "情况说明"}, 
 
     {"type": "select","name": "关1-5安全物资室门并上锁","options": ["已关闭","其他"]},
-    {"type": "boolean","description": "异常时说明情况","name": "情况说明","required": true}
+    {"type": "text","description": "异常时说明情况","name": "情况说明"} 
   ]

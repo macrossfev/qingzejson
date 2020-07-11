@@ -12,7 +12,7 @@
   {"type": "text","description": "无法关闭时说明情况","name": "情况说明"},
 
   {"type": "select","name": "关1-1门并上锁","options": ["已关闭","其他"]},
-  {"type": "text","description": "无法上锁时说明情况","name": "情况说明"}
+  {"type": "text","description": "无法上锁时说明情况","name": "情况说明"} 
   ]
 
   
