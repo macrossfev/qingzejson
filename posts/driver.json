@@ -1,12 +1,20 @@
 //日
 [
-    {"type": "select", "description": "填写车辆里程使用记录","name": "完成车辆里程表","options": ["已完成","长途路途中","今日未使用","其他"]},
-    {"type": "text", "description": "选择其他时进行文字说明","name": "说明具体情况"},
-    {"type": "image", "description": "拍摄里程数","name": "拍摄车辆目前的里程数"},
+    {"type": "select", "description": "车辆基础安全检查","name": "检查车辆安全情况，包括外部仪表盘异响及其他","options": ["外部故障","仪表盘显示故障","异响","其他"]},
+    {"type": "text", "description": "车辆基础安全检查","name": "异常时说明情况"},
+    {"type": "image", "description": "车辆基础安全检查","name": "拍摄异常情况"},
+
+    {"type": "select", "description": "GPS检查","name": "GPS运行情况，电量情况","options": ["正常","异常"]},
+    {"type": "text", "description": "GPS检查","name": "异常时说明情况"},
+    {"type": "image", "description": "GPS检查","name": "上传GPS实时情况图"},
     
-    {"type": "select", "description": "无其他特殊情况时车辆需停回公司","name": "完成车辆里程表","options": ["已完成","长途路途中","今日未使用","其他"]},
-    {"type": "text", "description": "选择其他时进行文字说明","name": "说明具体情况"},
-    {"type": "image", "description": "拍摄里程数","name": "拍摄车辆目前的里程数"},
+    {"type": "select", "description": "使用情况","name": "使用完成后填写今日车辆里程使用记录","options": ["已完成","采样中","今日未使用","其他"]},
+    {"type": "text", "description": "使用情况","name": "选择其他时说明具体情况"},
+    {"type": "image", "description": "使用情况","name": "拍摄车辆目前的里程数"},
+    
+    {"type": "select", "description": "车辆管理","name": "车辆使用完成后需停回公司内部","options": ["已停回","采样中","今日未使用","其他"]},
+    {"type": "text", "description": "车辆管理","name": "选择其他时进行文字说明"},
+    {"type": "image", "description": "车辆管理","name": "拍摄车辆目前位置"},
     
     ]
 
