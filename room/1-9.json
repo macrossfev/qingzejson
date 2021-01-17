@@ -8,19 +8,23 @@
     {"type": "select","description": "1-9日内是否出现明显异味、明显噪声、异常响声等情况","name": "工作环境隐患排查","options": ["正常","异常"]},
     {"type": "text","description": "发现上述情况时说明情况","name": "情况说明"},
 
-    {"type": "select", "description": "关闭1-9空调","name": "关闭空调","options": ["已关闭","其他"]},
-    {"type": "image", "description": "拍摄空调实时状态证明处于关闭状态","name": "拍摄空调"},
+    {"type": "select", "description": "关闭1-9空调","name": "工作环境隐患排查","options": ["已关闭","其他"]},
+    {"type": "image", "description": "拍摄空调实时状态证明处于关闭状态","name": "拍照留证"},
     {"type": "text","description": "异常时说明情况","name": "情况说明"},
     
-    {"type": "select", "description": "关闭1-9房间内所有设备","name": "关闭用电设备","options": ["已关闭","其他"]},
+    {"type": "select", "description": "关闭1-9房间内所有设备","name": "工作环境隐患排查","options": ["已关闭","其他"]},
     {"type": "text","description": "无法关闭时说明情况","name": "情况说明"},
 
-    {"type": "select", "description": "危化品柜要求上锁","name": "确认危化品柜已上锁","options": ["已上锁","异常"]},
-    {"type": "image", "description": "拍摄危化品柜上锁情况","name": "危化品柜上锁图片"},
+    {"type": "select", "description": "危化品柜要求上锁","name": "工作环境隐患排查","options": ["已上锁","异常"]},
+    {"type": "image", "description": "拍摄危化品柜上锁情况","name": "拍照留证"},
     {"type": "text", "description": "危化品柜无法上锁时说明情况","name": "情况说明"},
 
-    {"type": "select", "description": "非检测时段要求台面整洁","name": "台面整洁情况","options": ["台面整洁","台面不整洁"]},
-    {"type": "image", "description": "拍摄房间台面情况","name": "房间台面实时情况"},
-    {"type": "text", "description": "非检测时段台面不整洁时说明情况","name": "情况说明"} 
+    {"type": "select", "description": "非检测时段要求台面整洁","name": "工作环境隐患排查","options": ["台面整洁","台面不整洁"]},
+    {"type": "image", "description": "拍摄房间台面情况","name": "拍照留证"},
+    {"type": "text", "description": "非检测时段台面不整洁时说明情况","name": "情况说明"},
+    
+    {"type": "select","description": "关1-9门及走廊外窗户并上锁","name":"工作环境隐患排查","options": ["已关闭","其他"]},
+    {"type": "image", "description": "拍摄窗户及锁扣实时情况","name": "拍照留证"},
+    {"type": "text","description": "无法关闭上锁时说明情况","name": "情况说明"}
 
 ]

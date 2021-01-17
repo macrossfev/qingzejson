@@ -1,6 +1,14 @@
 [
-    {"type": "select", "description": "气瓶室内所有气瓶要求挂上防倒链","name": "气瓶防倾倒情况","options": ["已挂防倒链","其他"]},
-    {"type": "image", "description": "拍摄气瓶室实时图片，确保防倒链已全部挂上","name": "拍摄气瓶室实时情况"},
-    {"type": "text", "description": "有异常情况导致无法挂上防倒链时说明情况","name": "情况说明"} 
+    {"type": "select", "description": "气瓶室内所有气瓶要求挂上防倒链","name": "工作环境隐患排查","options": ["已挂防倒链","其他"]},
+    {"type": "image", "description": "拍摄气瓶室实时图片，确保防倒链已全部挂上","name": "拍照留证"},
+    {"type": "text", "description": "有异常情况导致无法挂上防倒链时说明情况","name": "情况说明"},
+    
+    {"type": "select", "description": "关灯并关门","name": "工作环境隐患排查","options": ["已关闭","其他"]},
+    {"type": "image", "description": "拍摄气瓶室大门","name": "拍照留证"},
+    {"type": "text", "description": "无法关闭时说明情况","name": "情况说明"}, 
+
+    {"type": "select", "description": "关闭玻璃大门","name": "工作环境隐患排查","options": ["已关闭","其他"]},
+    {"type": "image", "description": "拍摄玻璃大门实时情况","name": "拍照留证"},
+    {"type": "text", "description": "无法关闭时说明情况","name": "情况说明"} 
 
 ]
