@@ -14,8 +14,11 @@
   {"type": "select","description": "关1-1门并上锁","name":"工作环境隐患排查","options": ["已关闭","其他"]},
   {"type": "text","description": "无法上锁时说明情况","name": "情况说明"},
   
-  {"type": "select","description": "关1-1外窗户","name":"工作环境隐患排查","options": ["已关闭","其他"]},
-  {"type": "text","description": "无法关闭时说明情况","name": "情况说明"}
-  ]
+  {"type": "select","description": "关1-1外窗户并上锁","name":"工作环境隐患排查","options": ["已关闭","其他"]},
+  {"type": "image", "description": "关1-1外窗户并上锁","name": "拍照留证"},
+  {"type": "text","description": "无法关闭上锁时说明情况","name": "情况说明"}
+]
+
+ 
 
   
