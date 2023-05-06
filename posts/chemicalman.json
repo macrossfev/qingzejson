@@ -1,7 +1,9 @@
+[
 {"type": "select", "description": "1-4A危化品柜库存核查","name": "危化品库存核对专项检查","options": ["库存相符","库存不符"]},
 {"type": "image", "description": "1-4A危化品柜库存表","name": "拍照留证"},
 {"type": "text","description": "异常时说明情况","name": "情况说明"},
 
 {"type": "select", "description": "1-4A危化品柜库存核查","name": "危化品库存核对专项检查","options": ["库存相符","库存不符"]},
 {"type": "image", "description": "1-4A危化品柜库存表","name": "拍照留证"},
-{"type": "text","description": "异常时说明情况","name": "情况说明"},
+{"type": "text","description": "异常时说明情况","name": "情况说明"}
+]
